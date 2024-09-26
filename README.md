@@ -1,2 +1,3 @@
-# TP_AySO
-Tp comandos básicos git
+Alumno: Gastón Miano
+División: 212
+Turno: Tarde

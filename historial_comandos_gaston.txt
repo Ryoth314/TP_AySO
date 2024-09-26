@@ -1,0 +1,149 @@
+sudo apt install budgie-desktop
+sudo reboot
+ssh-keygen
+cat $HOME/.ssh/*.pub
+cd
+ls
+cd
+mkdir repogit
+ls
+cd repogit/
+git clone git@github.com:Ryoth314/TP_AySO.git
+sudo apt install git
+git clone git@github.com:Ryoth314/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+sudo apt update
+sudo apt upgrade
+echo "Usuario=$(whoami)"> datos_usuario.txt
+ls
+git add .
+git config --global user.email "gastonmiano@gmail.com"
+git config --global user.name "Ryoth314"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+git add .
+git commit -m "ADD: Información del sistema operativo"
+git push
+git push
+git status
+git add .
+git commit -m "ADD: Información del sistema operativo"
+git push
+git add .
+git config --global user.email "gastonmiano@gmail.com"; git config --global user.name "Ryoth314"
+git commit -m "ADD: Información del sistema operativo"
+cat $HOME/.ssh/*.pub
+ls
+cd 
+ls
+mv repogit /home/debian
+cd home
+cd /home/debian
+lñs
+ls
+cd repogit/
+cd TP_AySO/
+git status
+ls
+cd datos_usuario.txt 
+ls datos_usuario.txt 
+pwd
+ls -l
+git add .
+ls .bash_history
+cd debian
+cd
+cd debian
+cd home
+cd /home/debian
+ls
+ls -la
+cat .bash_history
+cp .bash_history historialgaston.txt /home/debian/repogit/TP_AySO/
+cp .bash_history /home/debian/repogit/TP_AySO/
+cd repogit/TP_AySO/
+ls
+cp .bash_history historialcomandosgaston.txt
+ls
+ls -la
+rm .bash_history
+ls -la
+clear
+git add .
+git commit -m "ADD: historico"
+git push
+cat /proc/cpuinfo
+cat
+cd repogit/TP_AySO/
+cat README.md
+echo "Alumno: Gastón Miano" > README.md
+cat README.md
+echo "División: 212" >> README.md
+echo "Turno: Tarde" >> README.md
+cat README.md
+git add .
+git commit -m "ADD: Mis datos"
+git push
+ls
+grep "model name" /proc/cpuinfo
+grep -i "model name" /proc/cpuinfo tail -n1 
+tail -n1 grep "model name" /proc/cpuinfo
+grep "model name" tal -n1 /proc/cpuinfo
+grep "model name" tail -n1 /proc/cpuinfo
+tail -n1 /proc/cpuinfo
+tail -n1 /proc/cpuinfo | grep "model name"
+tail -n1 /proc/cpuinfo | grep "model name" proc/cpuinfo
+tail -n1 /proc/cpuinfo | grep "model name" /proc/cpuinfo
+head -n1 /proc/cpuinfo | grep "model name" /proc/cpuinfo
+grep "model name" /proc/cpuinfo | tail -n1 
+echo "Modelo cpu: $(grep "model name" /proc/cpuinfo | tail -n1)" >> datos_usuario.txt
+ls
+cat datos_usuario.txt
+git add .
+git commit -m "feat: Añadiendo información de CPU"
+git push
+mkdir lista_ordenada
+ls
+cat lista_ordenada
+cp lista_ordenada lista_ordenada.txt
+ls
+rm lista_ordenada
+rm -d lista_ordenada
+ls
+mkdir lista_ordenada.txt
+man grep
+man sort
+grep -v nologin /etc/passwd | head -n10
+grep -v nologin /etc/passwd | head -n10 | sort -k 7
+man grep
+grep -v "nologin" /etc/passwd | head -n10 | sort -k 7
+echo $(grep -v nologin /etc/passwd | head -n10 | sort -k 7) >> lista_ordenada.txt
+cat lista_ordenada.txt
+echo "$(grep -v nologin /etc/passwd | head -n10 | sort -k 7)" >> lista_ordenada.txt
+ls
+cat historialcomandosgaston.txt
+cat datos_usuario.txt
+echo "Lista ordenada=$(grep -v nologin /etc/passwd | head -n10 | sort -k 7)" > lista_ordenada.txt
+rm -d lista_ordenada.txt
+ls
+echo $(grep -v nologin /etc/passwd | head -n10 | sort -k 7) > lista_ordenada
+ls
+cat lista_ordenada
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+git push
+man tcpdump
+man
+man man
+man tcpdump
+apropos dump | grep network
+man Tcpdump
+echo "tcpdump" > comando_dump_net
+echo "(man tcpdump) ó (apropos dump | grep network), pero ninguno de los dos me funciona" >> comando_dump_net 
+git add .
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+git push
+history -a

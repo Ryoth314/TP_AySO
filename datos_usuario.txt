@@ -1,1 +1,2 @@
 Usuario=root
+Modelo cpu: model name	: AMD Ryzen 5 1600 Six-Core Processor

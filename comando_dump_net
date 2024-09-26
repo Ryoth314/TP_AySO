@@ -1,0 +1,2 @@
+tcpdump
+(man tcpdump) ó (apropos dump | grep network), pero ninguno de los dos me funciona
